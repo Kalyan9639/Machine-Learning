@@ -113,7 +113,7 @@ Even if predicted values differ from actual values, the system is successful if 
 
 ---
 
-### 🥇 Main Dataset: `pricing_optimization.csv` (Gold Dataset)
+### 🥇 Main Dataset: `industry_realistic_pricing_dataset.csv` (Gold Dataset)
 
 **Why this dataset is used:**
 - Clear price → demand relationship
