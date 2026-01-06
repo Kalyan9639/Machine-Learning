@@ -1,6 +1,14 @@
 # 📈 Static Price Optimization using Machine Learning
 
-## Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Type-Decision%20Modeling-blue">
+  <img src="https://img.shields.io/badge/ML-Random%20Forest-green">
+  <img src="https://img.shields.io/badge/Pricing-Static%20Optimization-orange">
+  <img src="https://img.shields.io/badge/Status-Completed-success">
+</p>
+
+
+## 📌 Overview
 
 This project implements a **Static Price Optimization system** using Machine Learning to help businesses make **better pricing decisions** by understanding how price and related factors influence demand and profit.
 
@@ -11,7 +19,7 @@ The goal is **decision support**, not automated price control.
 
 ---
 
-## Problem Statement
+## 🎯 Problem Statement
 
 Businesses often struggle to answer questions like:
 - How sensitive is customer demand to price changes?
@@ -24,22 +32,21 @@ This project answers:
 
 ---
 
-## Project Scope (What This Project Does)
+## ✅ What This Project Is / Is Not
 
-✅ Learns demand behavior from historical data  
-✅ Estimates demand response to price changes  
-✅ Simulates pricing scenarios (e.g., +10%, +50%)  
-✅ Compares profit before vs after price changes  
-✅ Identifies **most influential features**  
-✅ Validates behavior under distribution shifts  
+### ✔️ This Project Is
+- A static pricing **decision support system**
+- A demand-based profit comparison model
+- An interpretable ML workflow for pricing analysis
 
-❌ Does NOT perform real-time or dynamic pricing  
-❌ Does NOT guarantee profit increase for every price rise  
-❌ Does NOT replace human decision-making  
+### ❌ This Project Is Not
+- A real-time pricing engine
+- A reinforcement learning system
+- A fully automated price controller
 
 ---
 
-## Dataset Description
+## 🧠 Dataset Description
 
 The project uses **industry-inspired synthetic datasets** designed to mimic real-world pricing behavior.
 
@@ -59,7 +66,7 @@ Target variable:
 
 ---
 
-## Modeling Approach
+## ⚙️ Modeling Approach
 
 ### 1. Demand Forecasting Model
 - Model: **Random Forest Regressor**
@@ -69,6 +76,10 @@ Target variable:
 ---
 
 ### 2. Feature Importance Analysis
+
+<p align="center">
+  <img src="Output Images/Feature Importance.png" width="700">
+</p>
 
 The trained model clearly shows:
 - **Price** as the dominant factor
@@ -150,7 +161,7 @@ This mirrors real-world conditions where future data rarely matches training dat
 
 ---
 
-## 7. Key Insights
+## 📊 Key Insights
 
 - Price is the dominant driver of demand
 - Elasticity Index determines risk associated with price increases
@@ -160,7 +171,7 @@ This mirrors real-world conditions where future data rarely matches training dat
 
 ---
 
-## 8. Project Structure
+## 📁 Project Structure
 
 
 ```text
@@ -175,7 +186,7 @@ This mirrors real-world conditions where future data rarely matches training dat
 
 ---
 
-## 9. Installation
+## Installation
 
 Install all dependencies using:
 
@@ -195,7 +206,7 @@ pip install -r requirements.txt
 
 ---
 
-## 10. How to Use
+## ▶️ How to Use
 
 1. Open and run `model_training_on_new_variety_data.ipynb`
 2. Train the demand forecasting model
@@ -207,7 +218,7 @@ pip install -r requirements.txt
 
 ---
 
-## 11. Limitations
+## ⚠️ Limitations
 
 - This is a static pricing model (no time-based dynamics)
 - Dataset is synthetic and industry-inspired
@@ -217,7 +228,7 @@ pip install -r requirements.txt
 
 ---
 
-## 12. Future Improvements
+## 🚀 Future Improvements
 
 - Add dynamic pricing using time-series models
 - Introduce reinforcement learning for sequential pricing decisions
@@ -227,7 +238,7 @@ pip install -r requirements.txt
 
 ---
 
-## 13. Conclusion
+## 🧾 Conclusion
 
 This project presents a practical and realistic implementation of a **static price optimization system** using machine learning.
 
@@ -249,6 +260,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
