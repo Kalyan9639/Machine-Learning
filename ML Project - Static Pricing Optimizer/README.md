@@ -162,22 +162,16 @@ This mirrors real-world conditions where future data rarely matches training dat
 
 ## 8. Project Structure
 
-├── model_training_on_new_variety_data.ipynb
-├── model_validate.ipynb
-├── requirements.txt
-├── Output Images
-│    ├── Feature Importance.png
-│    └── output.png
-└── README.md
 
-|- model_training_on_new_variety_data.ipynb
-|- model_validate.ipynb
-|- requirements.txt
-|- Output Image
-|    |- Feature Importance.png
-|    |_ output.png
-|- README.md
-
+```text
+├── model_training_on_new_variety_data.ipynb  # Data preprocessing and model training
+├── model_validate.ipynb                      # Model evaluation and validation metrics
+├── requirements.txt                          # Project dependencies
+├── Output Images                             # Visual results and analytics
+│    ├── Feature Importance.png               # Visualization of key features
+│    └── output.png                          # Model performance/prediction output
+└── README.md                                 # Project documentation
+```
 
 ---
 
@@ -255,6 +249,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
