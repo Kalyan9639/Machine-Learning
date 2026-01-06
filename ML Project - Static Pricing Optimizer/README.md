@@ -185,6 +185,10 @@ This mirrors real-world conditions where future data rarely matches training dat
 └── README.md                                 # Project documentation
 ```
 
+
+> Trained model hosted externally on Hugging Face
+
+
 ---
 
 ## Installation
@@ -207,9 +211,10 @@ pip install -r requirements.txt
 
 ---
 
-## Model Artifact
+## 🔗 Model Artifact
 
-The trained model file is not included in this repository due to GitHub size limits.
+The final trained machine learning model is hosted on **Hugging Face Model Hub** 
+to avoid GitHub file size limitations and to follow industry best practices.
 
 The model can be downloaded from:
 - Hugging Face Model Hub [Click here](https://huggingface.co/mr-checker/static-price-optimizer-model)
@@ -219,15 +224,19 @@ models/final_model.joblib
 
 ---
 
-## ▶️ How to Use
+## Quick Model Usage
 
-1. Open and run `model_training_on_new_variety_data.ipynb`
-2. Train the demand forecasting model
-3. Analyze feature importance to understand demand drivers
-4. Simulate pricing scenarios by modifying the price variable
-5. Compare baseline profit vs new profit
-6. Run `model_validate.ipynb` to validate model behavior on new data
-7. Use the results as pricing decision support
+```python
+from huggingface_hub import hf_hub_download
+import joblib
+
+model_path = hf_hub_download(
+    repo_id="YOUR_USERNAME/static-price-optimizer-model",
+    filename="model.joblib"
+)
+
+model = joblib.load(model_path)
+```
 
 ---
 
@@ -273,6 +282,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
