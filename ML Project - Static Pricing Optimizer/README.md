@@ -1,11 +1,6 @@
 # 📈 Static Price Optimization using Machine Learning
 
 <p align="center">
-  A decision-focused pricing system that models demand behavior  
-  and compares profit outcomes under different pricing scenarios.
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Type-Decision%20Modeling-blue">
   <img src="https://img.shields.io/badge/ML-Random%20Forest-green">
   <img src="https://img.shields.io/badge/Pricing-Static%20Optimization-orange">
@@ -266,6 +261,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
