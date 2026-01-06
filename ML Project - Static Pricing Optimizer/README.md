@@ -165,8 +165,9 @@ This mirrors real-world conditions where future data rarely matches training dat
 ├── model_training_on_new_variety_data.ipynb
 ├── model_validate.ipynb
 ├── requirements.txt
-├── Feature Importance.png
-├── output.png
+├── Output Images
+│ ├── Feature Importance.png
+│ └── output.png
 └── README.md
 
 
@@ -246,4 +247,5 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
