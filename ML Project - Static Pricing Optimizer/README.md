@@ -18,6 +18,10 @@ Unlike dynamic or reinforcement-learning-based pricing systems, this project foc
 
 The goal is **decision support**, not automated price control.
 
+> **Pretrained Model Available**  
+> The trained pricing model is hosted on Hugging Face and can be downloaded. Read "Model Artifact" section to know more
+
+
 ---
 
 ## 🎯 Problem Statement
@@ -282,6 +286,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
