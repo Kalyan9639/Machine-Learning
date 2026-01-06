@@ -207,6 +207,18 @@ pip install -r requirements.txt
 
 ---
 
+## Model Artifact
+
+The trained model file is not included in this repository due to GitHub size limits.
+
+The model can be downloaded from:
+- Hugging Face Model Hub [Click here](https://huggingface.co/mr-checker/static-price-optimizer-model)
+
+After downloading, place the file inside:
+models/final_model.joblib
+
+---
+
 ## ▶️ How to Use
 
 1. Open and run `model_training_on_new_variety_data.ipynb`
@@ -261,6 +273,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
