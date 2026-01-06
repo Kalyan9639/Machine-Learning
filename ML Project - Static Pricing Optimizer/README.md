@@ -1,19 +1,15 @@
+# 📈 Static Price Optimization using Machine Learning
+
 <p align="center">
-  <img src="Output Images/output.png" width="800">
+  <img src="Output Images/Profit Comparison - Current vs Increased Price.png" width="800">
 </p>
 
-<h1 align="center">Static Price Optimization using Machine Learning</h1>
+<!-- <h1 align="center">Static Price Optimization using Machine Learning</h1> -->
 
 <p align="center">
   Decision-Focused Pricing Optimization · Demand Modeling · Profit Simulation
 </p>
 
-
-
-
-
-
-# 📈 Static Price Optimization using Machine Learning
 
 ## Overview
 
@@ -264,6 +260,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
