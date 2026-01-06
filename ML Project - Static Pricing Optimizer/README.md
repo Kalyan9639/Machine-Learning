@@ -1,16 +1,5 @@
 # 📈 Static Price Optimization using Machine Learning
 
-<p align="center">
-  <img src="Output Images/Profit Comparison - Current vs Increased Price.png" width="800">
-</p>
-
-<!-- <h1 align="center">Static Price Optimization using Machine Learning</h1> -->
-
-<p align="center">
-  Decision-Focused Pricing Optimization · Demand Modeling · Profit Simulation
-</p>
-
-
 ## Overview
 
 This project implements a **Static Price Optimization system** using Machine Learning to help businesses make **better pricing decisions** by understanding how price and related factors influence demand and profit.
@@ -260,6 +249,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
