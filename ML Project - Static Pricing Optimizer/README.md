@@ -166,6 +166,58 @@ This mirrors real-world conditions where future data rarely matches training dat
 
 ---
 
+## 🔍 Comparison with Rule-Based Pricing Calculators
+
+Many platforms (for example, marketplace profit calculators) allow sellers to input a price and compute revenue and profit.
+
+### What Rule-Based Calculators Do
+Rule-based pricing calculators typically:
+- Take **price and cost inputs**
+- Compute revenue, fees, and profit
+- Assume demand is **fixed or implicit**
+- Operate as **accounting tools**, not predictive systems
+
+They effectively answer:
+> **“If I sell at this price, what is my profit?”**
+
+This is useful for cost estimation but does not account for how **demand changes when price changes**.
+
+---
+
+### What This Project Does Differently
+
+This project introduces **demand-aware decision modeling**.
+
+Instead of assuming demand is constant, it explicitly models the relationship:
+```
+Price → Demand (ML) → Profit
+```
+
+This allows the system to answer a fundamentally different question:
+> **“If I change the price, how will demand respond, and which price option is better overall?”**
+
+The model evaluates pricing decisions under uncertainty rather than performing static calculations.
+
+---
+
+### Key Differences
+
+| Aspect | Rule-Based Calculators | This Project |
+|------|------------------------|--------------|
+Demand modeling | ❌ Not modeled | ✅ Explicitly modeled |
+Price–demand relationship | ❌ Ignored | ✅ Learned from data |
+Decision support | ❌ Limited | ✅ Strong |
+Learning from data | ❌ No | ✅ Yes |
+Scenario evaluation | Manual & blind | Data-driven |
+Optimization awareness | ❌ No | ✅ Yes |
+
+> 📌 Important:  
+> This project does **not aim to replace** existing pricing calculators.  
+> Instead, it **complements them** by adding **predictive insight** into pricing decisions.
+
+
+---
+
 ## 📊 Key Insights
 
 - Price is the dominant driver of demand
@@ -286,6 +338,7 @@ Focus: Static Pricing Optimization, Decision Modeling, Applied Machine Learning
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
 
 
 
