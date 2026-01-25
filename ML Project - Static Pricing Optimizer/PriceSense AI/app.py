@@ -4,6 +4,11 @@ import time
 
 # Import your existing logic
 from predict_and_plot import PriceSense, PriceInput
+from download_model import rfmodel
+
+# Ensure model is available before loading
+rfmodel()
+
 
 # --------------------------------------------------
 # 1. Page Configuration
@@ -442,4 +447,5 @@ else:
 #         </div>
 #         """, 
 #         unsafe_allow_html=True
+
 #     )
